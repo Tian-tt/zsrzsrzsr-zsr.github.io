@@ -1,0 +1,38 @@
+.footer{
+    width: 6.4rem;
+    background-color: #fff;
+    padding: 0.14rem 0 0.1rem 0;
+    position: fixed;
+    bottom: 0;
+
+}
+.footer a{
+    display: block;
+    float: left;
+} 
+.footer a img{
+    display: block;
+    width: 0.45rem;
+}
+.footer a span{
+    font-size: 0.2rem;
+    color:#4e4e4e;
+    margin-top: 0.12rem;
+    text-align: center;
+}
+.footer .home{
+    margin-left: 0.42rem;
+    margin-right: 1.2rem;
+} 
+.footer .home span{
+    color:#5cc0dd;
+}
+.footer .map{
+    margin-left: 1.36rem;
+}
+.footer .personage{
+    margin-left: 0.76rem;
+}
+.footer .personage img{
+    margin-left: 0.2rem;
+}

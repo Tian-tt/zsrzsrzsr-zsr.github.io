@@ -1,0 +1,164 @@
+body,html{
+    font-size: 18px;
+    background-color: #fff;
+}
+.header span{
+	font-weight:300;
+} 
+.top{
+	width: 6.4rem;
+	padding-top: 0.16rem;
+	padding-bottom: 0.24rem;
+}
+.top-left{
+	float: left;
+	margin-left: 0.38rem;
+}
+.top-left img{
+	display: block;
+	width: 1.5rem;
+}
+.top-right{
+	float: left;
+	margin-left: 0.5rem;
+}
+.top-right span{
+	color: #333;
+	width: 2.8rem;
+	display: block;
+	font-size: 0.28rem;
+	line-height: 0.6rem;
+	font-weight: 400;
+	margin-top: 0.45rem;
+	border-bottom:1px dashed #ccc;
+}
+.title{
+	width: 6.4rem;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+.title .line-left{
+	width: 2.6rem;
+	height: 0.01rem;
+	margin-top: 0.34rem;
+	background-color: #ccc;
+	float: left;
+}
+.title span{
+	font-size: 0.24rem;
+	color: #333;
+	margin-left: 0.12rem;
+	line-height: 0.68rem;
+	float: left;
+}
+.title .line-right{
+	width: 2.6rem;
+	height: 0.01rem;
+	margin-top: 0.34rem;
+	background-color: #ccc;
+	float: right;
+}
+.content-intro{
+	width: 5.24rem;
+	margin: 0 auto;
+	padding: 0.14rem 0.1rem 0.28rem 0.1rem;
+	line-height: 0.38rem;
+	text-align: left;
+	color: #333;
+	font-size: 0.2rem;
+	border: 1px dashed #ccc;
+	margin-bottom: 0.38rem;
+}
+.content{
+    margin-bottom: 0.94rem;
+}
+.content>div{
+    width: 6.21rem;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+    background-image: url('../images/泸沽湖.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.content .luguhu{
+   background-image: url('../images/泸沽湖.jpg'); 
+}
+.content .guangdong{
+   background-image: url('../images/广东.png'); 
+}
+.content .aozhou{
+   background-image: url('../images/澳洲.jpg'); 
+}
+.content .jiazhou{
+   background-image: url('../images/加州.jpg'); 
+}
+.content .beijiaer{
+   background-image: url('../images/贝加尔湖.jpg'); 
+}
+.content .areaName{
+    width: 5.98rem;
+    color: #fff;
+    font-weight: 200;
+    padding-left: 0.23rem;
+    font-size: 0.24rem;
+    line-height:0.48rem;
+    background:rgba(0,0,0,0.4);
+}
+.content .way{
+    width: 5.98rem;
+    color: #fff;
+    font-weight: 200;
+    padding-left: 0.23rem;
+    font-size: 0.2rem;
+    line-height:0.28rem;
+    background:rgba(0,0,0,0.4);
+    margin-top: 1.2rem;  
+}
+.content .price{
+    width: 0.9rem;
+    height: 0.78rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #f0884d; 
+    padding-top: 0.16rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    bottom:-0.56rem;
+}
+.content .price span{
+    color: #fff;
+    font-size:0.12rem;
+}
+.content .price span i{
+    font-style:normal;
+    font-size:0.21rem;
+}
+.load{
+    width: 6.4rem;
+    line-height: 0.84rem;
+    text-align: center;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+}
+.load .upload{
+    width: 1.2rem;
+    margin: 0 auto;
+}
+.load .upload span{
+    font-size: 0.2rem;
+    color:#6e6e6e;
+    float: left;
+}
+.load .upload img{
+    display: block;
+    float: right;
+    width: 0.26rem;
+    margin-top: 0.32rem;     
+}
+.moreDown{
+    display: none;
+}
