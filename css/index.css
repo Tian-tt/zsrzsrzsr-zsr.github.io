@@ -89,6 +89,8 @@
    background-image: url('../images/泸沽湖.jpg'); 
 }
 .content .guangdong{
+    background-repeat: no-repeat;
+    background-size: cover;
    background-image: url('../images/广东.png'); 
 }
 .content .aozhou{
