@@ -83,7 +83,7 @@ $(".footer>a").tap(function(){
 	var str1 = $(".inp2").val();	
 	var str2 = $(".inp3").val();	
 	if (email($(".email"),str)==true&&name($(".inp2"),str1)==true&&name($(".inp3"),str2)==true) {		
-		window.location.href = "pay.html"
+		window.location.href = "confirm.html"
 	} else {
 		
 	}
@@ -128,4 +128,13 @@ $(".modify").tap(function(){
 	window.location.href = "apply.html"
 })
 
-
+//总价格计算
+$(".pic img").tap(function(){
+	var src = $(this).attr("src")
+	var text = $(".footer span").text()
+	if (src == "images/weixuan_04.png") {
+		$(".footer span").text(text - 177*2)
+	} else {
+		$(".footer span").text(Number(text) + 177*2)
+	}
+})
