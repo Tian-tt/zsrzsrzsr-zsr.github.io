@@ -16,7 +16,7 @@
 		})
 
 		$(".main").tap(function(){
-			window.location.href = "order_details.html"
+			window.location.href = "orderDetails.html"
 		})
 
 	
