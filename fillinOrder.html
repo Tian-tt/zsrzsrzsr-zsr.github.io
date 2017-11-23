@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/fill in_order.css">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+	</script>
+</head>
+<body>
+	<div class="header clearfix">填写订单
+		<a href='#' onClick="javascript :history.back(-1)">
+			<img src="images/fanye.png" alt="">
+		</a>
+		<a href="tel://18230351229">
+			<img src="images/phone_09.png" alt="">
+		</a>
+	</div>
+	<div class="title">
+		【爱自驾】<云南落地自驾行摄7天之旅>，各地飞往历
+ 史文化名城云南昆明集合。
+	</div>
+	<div class="main">
+		<div class="line">
+			<h3>线路信息</h3>
+			<div class="content">
+				<p>自驾团名称：云南落地自驾行摄之旅</p>
+				<p class="clearfix">出游日期：2016-01-27<span class="modify">修改</span></p>
+				<p>出游人数：3成人，0儿童</p>
+				<p>房间：<button class="reduce">-</button><input type="text" value="1" class="text"><button class="add">+</button>（2人间）</p>
+				<p class="pos">是否同意拼房：
+					<img src="images/tongyi2_01.png" alt="">
+					<span class="agree1">同意</span>		
+				</p>
+				<p class="pos">
+					<img src="images/tongyi_04.png" alt="">
+					<span class="agree">不同意拼房,愿意支付房差费用￥3500</span>
+				</p>		
+			</div>
+		</div>
+		<div class="line clearfix">
+			<h3 class="tabs">费用说明</h3>			
+			<h3 class="tabs">退订规则</h3>
+			<div class="hover">
+				<img src="images/xiajiaobiao_04.png" alt="">
+			</div>
+			<div class="content">
+				<h4>费用包含：</h4>
+				<p>*+7x24小时优秀中/英双语自驾向导服务（国内出发，全程陪同）；</p>
+				<p>*+国内往返美国经济舱机票、燃油附加税、机票税；</p>
+				<p>*+包含好莱坞环球影城+17英里海岸门票；</p>
+				<p>*+美国当地钻酒店住宿；</p>
+				<p>*+美国当地钻酒店住宿1；</p>
+			</div>
+		</div>
+		<div class="line line_1">
+			<h3>联系人信息</h3>
+			<span class="prompt"></span>
+			<div class="content">
+				<p><span>*</span>姓名：<input type="text" placeholder="必填" onfocus="this.placeholder = ''" onblur="this.placeholder = '必填'" class="inp1 inp2"></p>
+				<p><span>*</span>性别：<img src="images/hui_02.png" alt="">男<img src="images/tongyi_04.png" alt="">女</p>
+				<p><span>*</span>手机号码：<input type="text" value="" class="phone"></p>
+				<p><span>*</span>邮箱：<input type="text" placeholder="必填，接收合同信息" onfocus="this.placeholder = ''" onblur="this.placeholder = '必填，接收合同信息'" class="email"></p>
+			</div>
+		</div>
+		<div class="line line_1">
+			<h3 class="clearfix">游客信息
+				<a href="selectTourists.html">常用游客</a>
+			</h3>
+			<span class="prompt"></span>
+			<div class="content">
+				<p>
+					<span>*</span>姓名：<input type="text" placeholder="必填" onfocus="this.placeholder = ''" onblur="this.placeholder = '必填'" class="inp1 inp3">
+				</p>
+				<p>
+					<span>*</span>证件类型：
+					<select name="" id="">
+						<option value="1">身份证</option>
+					</select>
+				</p>
+				<p class="more">
+					<span>*</span>手机号码：<input type="text" value="" class="phone">
+				</p>
+			</div>
+			<a href="javascript:void(0)">
+					<img src="images/jia_01.png" alt="">
+			</a>
+		</div>
+		<div class="line">
+			<h3>保险</h3>
+			<div class="content">
+				<div class="top1 clearfix">
+					<div class="pic clearfix">
+						<img src="images/baoxian_01.png" alt="">
+					</div>
+					<p>
+						平安爱自驾境外长线保险 经典型<br>2份
+					</p>
+					<div class="price">
+						<span>详情></span>
+						<span>
+							<span>￥177</span>
+						/一份
+						</span>
+					</div>
+				</div>
+				<div class="top1 clearfix">
+					<div class="pic clearfix">
+						<img src="images/baoxian_01.png" alt="">
+					</div>
+					<p>
+						平安爱自驾境外长线保险 经典型<br>2份
+					</p>
+					<div class="price clearfix">
+						<span>详情></span>
+						<span>
+							<span>￥177</span>
+						/一份
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>已阅读并同意爱自驾旅游协议</p>
+	<div class="footer clearfix">
+		<p>总费用  ￥5920  </p>
+		<a href="javascript:void(0)">提交订单</a>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/fx_methods.js"></script>
+	<script src="js/fill in_order.js"></script>
+</body>
+</html>

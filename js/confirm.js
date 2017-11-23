@@ -12,3 +12,15 @@
 		}
 	})
 
+	//总费用计算
+	$(".pic img").tap(function(){
+	var src = $(this).attr("src")
+	var spanText = $(".footer span").text()
+	if (src == "images/weixuan_04.png") {
+		$(".footer span").text(spanText - 177*2)
+	} else {
+		$(".footer span").text(Number(spanText) + 177*2)
+	}
+})
+
+

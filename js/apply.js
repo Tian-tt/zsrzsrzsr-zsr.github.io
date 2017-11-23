@@ -17,5 +17,5 @@ $('.kind .order .more').tap(function(){
 	}
 })
 $('.time-join .right').tap(function(){
-	 window.location.href="fill in_order.html"
+	 window.location.href="fillinOrder.html"
 })

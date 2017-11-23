@@ -32,7 +32,7 @@
 			var str = $(".inp1").val();
 			var str1 = $(".inp2").val();
 			if (correct == true && correct1 == true) {
-				window.location.href = "select_tourists.html"
+				window.location.href = "selectTourists.html"
 			} else {
 
 			}
