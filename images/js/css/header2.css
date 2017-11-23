@@ -1,0 +1,72 @@
+html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+.clearfix { *zoom:1;}
+li{
+    list-style: none;
+}
+a{
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color:transparent;
+    text-decoration: none;
+}
+body{
+	background-color: #ccc;
+}
+.header{
+	width: 6.4rem;
+	text-align: center;
+	background-color: #50bbdb;
+	padding-top: 0.21rem;
+	padding-bottom: 0.20rem;
+}
+.header .back{
+	width: 0.39rem;
+    height: 0.39rem;
+	display: block;
+    background-image: url('../images/back_03.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	text-align:left;
+	font-size: 0.5rem;
+	font-weight: 300;
+	color: #fff;
+	margin-left: 0.31rem;
+	float: left;
+}
+.header span{
+	display: block;
+	color: #fff;
+	font-size: 0.36rem;
+	font-weight: 500;
+	float: left;
+	margin-left: 1.88rem;
+}

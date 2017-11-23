@@ -1,0 +1,380 @@
+	.header{
+		text-align: center;
+		font-size: 0.28rem;
+		color: #fff;
+		line-height: 0.88rem;		
+		padding-left: 0.44rem;	
+		padding-right: 0.5rem;		
+		background-color: #50bbdb;	
+		margin-bottom: 0;		
+	}
+	a{
+			border: none;
+			outline: none;
+			-webkit-tap-highlight-color:transparent;
+			text-decoration: none;
+		}
+	
+	.header>a{
+		width: 0.43rem;
+		height: 0.43rem;
+		position: absolute;
+    	top: 0.25rem;
+    	display: block;
+		float: left;
+	}
+
+	.header>a:last-child{
+		width: 0.37rem;
+		right: 0.5rem;
+	}
+
+	.header>a img{
+		width: 0.43rem;
+		display: block;
+	}
+
+	.main{
+		margin:0.2rem 0.15rem 0 0.15rem;
+	}
+
+	.main>div{
+		border-radius: 0.13rem;
+    	background: #fff;
+		margin-top:0.2rem;
+		padding: 0.2rem 0;
+	}
+
+	.title{
+		font-size: 0.24rem;
+		color: #333;
+		background-color: #fff;
+		padding-right: 0.6rem;
+    	line-height: 0.44rem;
+    	position: relative;
+    	padding-top: 0.1rem;
+    	padding-bottom: 0.1rem;
+    	border-bottom: 1px solid #dcdcdc;
+	}
+
+	.main>div>h3{
+		color: #333;
+		font-size: 0.24rem;
+		border-left: 4px solid #50bbdb;
+		padding-left: 0.2rem;
+    	margin-left: 0.13rem;
+    	margin-bottom: 0.1rem;
+    	font-weight: bold;
+
+	}
+
+	.main>div:nth-child(2) h3{
+		display: inline-block;	
+	}
+
+	.main>div:nth-child(2){
+		position: relative;
+	}
+
+	.main>div:nth-child(2) .content h4{
+		font-size: 0.2rem;
+		color: #333;
+		font-weight: bold;
+		margin-bottom: 0.1rem;
+	}
+
+	.main>div:nth-child(2) .content p{
+		font-size: 0.18rem;
+		color: #333;
+	}
+
+	.hover{
+		position: absolute;
+		top: 0.42rem;
+    	left: 0.26rem;
+    	transition: all 0.2s;
+	}
+
+	.hover>img{
+		width: 1.16rem;
+	}
+
+	.main>div:nth-child(2)>h3:nth-child(2){
+		border-left: 0;
+	}
+
+	.content{
+		border-top: 1px solid #dcdcdc;
+		padding-left: 0.38rem;
+		padding-right: 0.29rem;
+	}
+
+	.main>div:nth-child(2) .content{
+		padding-top: 0.22rem;
+	}
+
+	.main>div:nth-child(3) .content p{
+		border-bottom: 1px solid #ccc;
+		font-size: 0.2rem;
+	}
+
+	.main>div:nth-child(3) .content p span:first-child{
+		color: #50bbdb;
+	}
+
+	.main>div:nth-child(3) .content p span:nth-child(2){
+		color: #ccc;
+	}
+
+	.content>p{
+		line-height: 0.44rem;
+		font-size: 0.2rem;	
+	}
+
+	.content>p>input{
+		width: 0.52rem;
+		text-align: center;
+		line-height: 0.28rem;
+		font-size: 0.18rem;
+		border-top: 2px solid #ccc;
+	    border-bottom: 2px solid #ccc;
+	    border-left: none;
+	    border-right: none;
+	}
+
+	
+
+	.content>p>button{
+		width: 0.4rem;
+		line-height: 0.28rem;
+		background-color: #fff;
+		position: relative;
+    	top: -0.001rem;
+    	color: #50bbdb;
+    	font-size: 0.18rem;
+    	border: 2px solid #ccc;
+    	outline: none;
+	}
+
+	.content>p>button:last-child{
+		margin-right: 0.38rem;
+	}
+
+	.main>div:first-child .content>p>.modify{
+		float: right;
+	    border: 1px solid #ccc;
+	    border-radius: 5px;
+	    width: 0.76rem;
+	    text-align: center;
+	    line-height: 0.3rem;
+	    color: #50bbdb;
+	    font-size: 0.2rem;
+	}
+
+	.content{
+		position: relative;
+	}
+
+	.main>div:first-child .content>p .agree1{
+		margin-left: 0.2rem;
+	}
+
+	.main>div:first-child .content>p .agree:last-child{
+		margin-left: 0.22rem;
+	}
+
+	.pos img{
+		width: 0.2rem;
+		margin-left: 0.1rem;
+    	margin-bottom: -0.03rem;
+	}
+
+	.pos:last-child img{
+		margin-left: 1.55rem;
+    
+	}
+
+	.Selected{
+		width: 0.08rem;
+	    height: 0.08rem;
+	    background-color: #50bbdb;
+	    position: absolute;
+	    border-radius: 100%;
+	    right: 0.39rem;
+	    top: 0.26rem;
+	}
+
+	.content>p:last-child{
+		font-size: 0.18rem;
+	}
+
+
+	.main>.line:nth-child(4)>h3>a{
+		float: right;
+	    color: #50bbdb;
+	    font-size: 0.2rem;
+	   	font-weight: normal;
+	    margin-right: 0.3rem;
+	}
+
+	.main>.line:nth-child(4) p{
+		border-bottom: 1px solid #ccc;
+	}
+
+	.main>.line:nth-child(4) p span:first-child{
+		color: #50bbdb;
+	}
+
+	.main>.line:nth-child(4) p:first-child span:last-child{
+		color: #ccc;
+	}
+
+	.main>.line:nth-child(4) p select{
+		width: 1.04rem;
+		height: 0.38rem;
+	    outline: none;
+	    border: 1px solid #ccc;
+	    font-size: 0.16rem;
+	    margin: 0.1rem 0;
+	}
+
+	.main>.line:nth-child(4)>a{
+		width: 0.37rem;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 0.2rem;
+	}
+
+	.line:nth-child(3) .content p:nth-child(2) img{
+		margin-left: 1rem;
+  	width: 0.2rem;
+  	margin-right: 0.1rem;
+	}
+
+	.line:nth-child(3) .content p:nth-child(2) img:last-child{
+		margin-left: 0.4rem;
+	}
+
+	.line .top1{
+		padding-top: 0.13rem;
+    	padding-bottom: 0.24rem;
+    	border-bottom: 1px solid #ccc;
+	}
+
+	.line .top1:last-child{
+		border-bottom: none;
+	}
+
+	.line .top1>p{
+		font-size: 0.2rem;
+		float: left;
+	}
+
+	.line .top1 .price{
+		float: right;
+	}
+
+	.line .top1 input{
+		float: left;
+	}
+
+	.pic{
+		width: 0.42rem;
+		float: left;
+	}
+
+	.line .top1 img{
+		width: 0.29rem;
+		float: left;
+		margin-top: 0.1rem;
+	}
+
+	.line .top1 .price span{
+		display: block;
+		color: #666;
+		font-size: 0.18rem;
+	}
+
+	.line .top1 .price>span:first-child{
+		float: right;
+	}
+
+	.line .top1 .price>span:nth-child(2)>span{
+		display: inline;
+		color: #f98d0d;
+	}
+
+	body>p{
+		color: #333;
+		font-size: 0.18rem;
+		text-align: center;
+		line-height: 0.6rem;
+	}
+
+	.footer{
+		background-color: #fff;
+		padding: 0.17rem 0.2rem;
+	}
+
+	.footer>p{
+		color: #f0851a;
+		font-size: 0.24rem;
+		float: left;
+		font-weight: bolder;
+		margin-top: 0.2rem;
+	}
+
+	.footer>a{
+		display: block;
+		float: left;
+		color: #fff;
+		background-color: #50bbdb;
+		padding: 0.2rem 0.44rem;
+		border-radius: 10px;
+		margin-left: 2rem;
+		font-size: 0.24rem;
+		float: right;
+	}
+
+	.content .inp1{
+		width: 70%;
+		border: none;
+    	text-align: left;
+    	outline: none;
+	}
+
+	.content .phone{
+		width: 70%;
+		border: none;
+    	text-align: left;
+    	outline: none;
+	}
+
+	.content .email{
+		width: 70%;
+		border: none;
+    	text-align: left;
+    	outline: none;
+	}
+
+	.line:nth-child(3){
+		position: relative;
+	}
+
+	.line:nth-child(4){
+		position: relative;
+	}
+
+	.line .prompt{
+		position: absolute;
+		top: 0.26rem;
+	    left: 2rem;
+	    font-size: 0.18rem;
+	}
+
+	.more{
+		display: none;
+	}
+
+
+
