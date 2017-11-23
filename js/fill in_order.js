@@ -18,6 +18,29 @@ $(".tabs").tap(function(){
 	$(".hover").css("left",0.26 + 1.36*ind + "rem")
 })
 
+//姓名
+function name(ele1,str1){
+	if (ele1.val() == "") {
+		correct1 = false
+			ele1.parents(".line").children(".prompt").text("请填写您的姓名")
+		    ele1.parents(".line").children(".prompt").css("color","red");
+		}else{
+			correct1 = true
+			ele1.parents(".line").children(".prompt").text("")
+		}
+	return correct1
+}
+
+$(".inp2").blur(function(){
+		var str1 = $(this).val();
+		name($(".inp2"),str1)
+})
+
+$(".inp3").blur(function(){
+		var str2 = $(this).val();
+		name($(".inp3"),str2)
+})
+
 //手机号码 正则
 	var re = /^((13[0-9])|(14[5,7])|(15[0,1,2,3,5,6,7,8,9])|(17[3,6,7,8])|(18[0-9]))\d{8}$/;
 
@@ -54,38 +77,15 @@ $(".email").blur(function(){
 	email($(".email"),str)
 })
 
-//姓名
-function name(ele1,str1){
-	if (ele1.val() == "") {
-		correct1 = false
-			ele1.parents(".line").children(".prompt").text("请填写您的姓名")
-		    ele1.parents(".line").children(".prompt").css("color","red");
-		}else{
-			correct1 = true
-			ele1.parents(".line").children(".prompt").text("")
-		}
-	return correct1
-}
-
-$(".inp2").blur(function(){
-		var str1 = $(this).val();
-		name($(".inp2"),str1)
-})
-
-$(".inp3").blur(function(){
-		var str2 = $(this).val();
-		name($(".inp3"),str2)
-})
-
 //提交订单跳转
-$(".footer>a").tap(function(){
-	var str = $(".email").val();	
+$(".footer>a").tap(function(){	
+	var str = $(".email").val();
 	var str1 = $(".inp2").val();	
 	var str2 = $(".inp3").val();	
-	if (email($(".email"),str)==true&&name($(".inp2"),str1)==true&&name($(".inp3"),str2)==true) {		
+	if (name($(".inp2"),str1)==true&&name($(".inp3"),str2)==true&&email($(".email"),str)==true) {		
 		window.location.href = "confirm.html"
 	} else {
-		
+		// $(".line_1").children(".prompt").text("请填写您的姓名")
 	}
 })
 
