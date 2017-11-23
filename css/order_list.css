@@ -4,7 +4,7 @@ a{
     -webkit-tap-highlight-color:transparent;
     text-decoration: none;
 }
-input,button{
+input,button,select{
     outline: none;
 }
 		body>div{
@@ -109,7 +109,7 @@ input,button{
 		.footer>select{
 			width: 0.88rem;
 			color: #333;	
-			font-size: 0.24rem;		
+			font-size: 0.22rem;		
 			float: right;
 			text-align: center;		
 			border:1px solid #bebebe;
