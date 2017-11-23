@@ -138,3 +138,7 @@ $(".pic img").tap(function(){
 		$(".footer span").text(Number(text) + 177*2)
 	}
 })
+
+$('.linkLink h3 a').tap(function(){
+	window.location.href="selectTourists.html"
+})
