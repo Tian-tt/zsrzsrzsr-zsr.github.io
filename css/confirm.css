@@ -70,15 +70,16 @@
 		font-size: 0.2rem;
 	}
 
-	.content>p>span{
+.content>p>a{
 		float: right;
-	    border: 1px solid #ccc;
-	    border-radius: 10px;
-	    width: 0.76rem;
-	    text-align: center;
-	    color: #50bbdb;
-	    font-size: 0.2rem;
-	}
+		display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 0.76rem;
+    text-align: center;
+    color: #50bbdb;
+    font-size: 0.2rem;
+}
 
 	.main>.line:first-child>.content>p{
 		border-bottom: none;
@@ -170,7 +171,7 @@
 
 	.footer{
 		background-color: #fff;
-		width: 6.4rem;
+		width: 6.0rem;
 		padding: 0.17rem 0.2rem;
 	}
 
