@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/pay.css">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+	</script>
+</head>
+<body>
+	<div class="header clearfix">选择支付方式
+		<a href="confirm.html">
+			<img src="images/fanye.png" alt="">
+		</a>	
+	</div>
+	<div class="top">订单总额： ￥5920</div>
+	<div class="main">
+		<div class="content clearfix">
+			<img src="images/zhifubao_13.png" alt="">
+			<img src="images/jian_24.png" alt="">
+			<p>支付宝支付</p>
+			<input type="radio" name="sex">
+			<span class="lb1"></span>
+			<div class="Selected"></div>
+		</div>
+		<div class="content clearfix">
+			<img src="images/weixin_30.png" alt="">
+			<p>微信支付</p>
+			<input type="radio" name="sex">
+			<span class="lb2"></span>
+			<div class="Selected"></div>
+		</div>
+		<div class="content clearfix">
+			<img src="images/yinlian_03.png" alt="">
+			<p>银联支付</p>
+			<input type="radio" name="sex">
+			<span class="lb3"></span>
+			<div class="Selected"></div>
+		</div>
+	</div>
+	<div class="footer clearfix">
+		<div class="left">
+			<p>支付:  ￥5920  </p>
+			<div class="time clearfix">
+				<p>剩余</p>
+				<div class="tm clearfix">
+					<p></p>
+					<img src="images/b-冒号.png" alt="">
+					<p></p>
+					<img src="images/b-冒号.png" alt="">
+					<p></p>
+				</div>
+				<p>请尽快付款</p>
+			</div>
+		</div>
+		<a href="#">付款</a>
+	</div>	
+	<script src="js/zepto.min.js"></script>
+	<script src="js/touch.js"></script>	
+	<script src="js/pay.js"></script>
+</body>
+</html>

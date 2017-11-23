@@ -1,5 +1,57 @@
 .banner{
     width: 6.4rem;
+    position: relative;
+}
+.banner>img{
+    display: block;
+    height: 3rem;
+    width: 6.4rem;
+}
+.search{
+    width: 3.8rem;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 0.38rem;
+    border: 1px solid #50bbdb;
+    border-radius: 50px;
+    margin-left:20%;
+    font-size: 20px;
+    outline: none;
+    padding: 0.09rem 0.18rem 0.09rem 0.2rem;
+}
+.search-link{
+    display: block;
+    position: absolute;
+    top: 4.62rem;
+    right: 1.2rem;
+}
+.search-link>img{
+    display: block;
+    width: 0.26rem;
+}
+.banner .point{
+    width: 1.28rem;
+    margin-top: 1.27rem;
+    position: absolute;
+    left:2.5rem;
+    bottom: 0.13rem;
+}
+.banner .point a{
+    width: 0.28rem;
+    height: 0.28rem;
+    border-radius: 50%;
+    background-color: #ccc;
+    float: left;
+    margin-right:0.22rem;
+}
+.banner .point .point1{
+    background-color: #50bbdb;
+}
+.banner .point .point3{
+    margin-right: 0;
+}
+/* .banner{
+    width: 6.4rem;
     padding-top: 0.12rem;
     padding-bottom: 0.28rem;
     background-image: url('../images/area-banner_03.png');
@@ -37,7 +89,7 @@
     display: block;
     width: 0.26rem;
     float: right;
-}
+} */
 .title{
     width: 6.3rem;
     margin: 0 auto;
@@ -69,16 +121,19 @@
     margin-right:0.06rem;
     float: left;
 } 
-.cisborder .luguhu,.cisborder .guangdong,.overseas .aozhou,.overseas .jiazhou,.overseas .beijiaer{
+.cisborder .luguhu,.cisborder .guangdong,.overseas .aozhou,.overseas .jiazhou,.overseas .beijiaer,.more1Down>div,.more2Down>div{
     width: 6.4rem;
     margin: 0 auto;
     margin-bottom: 0.64rem;
-    background-image: url('../images/泸沽湖.jpg');
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.cisborder .luguhu{
+.more1Down,.more2Down{
+    display: none;
+}
+.cisborder .luguhu,.more1Down>div{
    background-image: url('../images/泸沽湖.jpg'); 
 }
 .cisborder .guangdong{
@@ -144,6 +199,7 @@
 }
 .price span{
     color: #fff;
+    line-height: 0.3rem;
     font-size:0.15rem;
 }
 .price span i{
@@ -158,11 +214,12 @@
 }
 .more .symbol{
     width: 0.27rem;
-    line-height: 0.27rem;
+    line-height: 0.23rem;
     border-radius: 50%;
     text-align: center;
     color:#eb6417;
     margin-left: 2.64rem;
+    padding-bottom: 0.05rem;
     float: left;
     border: 1px solid #eb6417;
     font-size:0.3rem;

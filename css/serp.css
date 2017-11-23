@@ -209,3 +209,98 @@ body,html{
 .footer ul li:nth-child(4){
 	margin-right: 0.48rem;
 }
+.mask{
+	display: none;
+	width: 6.4rem;
+	background-color: #fff;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background:rgba(0,0,0,0.4);
+	padding-top:6.4rem;
+}
+.mask .masking{
+	width: 6.4rem;
+	position: absolute;
+	bottom: 0;
+}
+.mask .masking .mask-top{
+	width: 5.97rem;
+	line-height: 0.58rem;
+	padding: 0 0.13rem 0 0.3rem;
+	background-color: #50bbdb;
+}
+.mask .masking .mask-top a{
+	display: block;
+	color: #ebebeb;
+	font-size: 0.24rem;
+	float: left;
+}
+.mask .masking .mask-top a:nth-child(2){
+	margin-left: 1.98rem;
+	margin-right: 1.98rem;
+}
+.mask .masking .mask-top a:last-child{
+	color: #fff;
+}
+.mask .masking .choose{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.mask .masking .choose .left{
+	float: left;
+	background-color: #ebebeb;
+	padding-bottom: 0.64rem;
+}
+.mask .masking .choose .right{
+	float: left;
+	margin-left: 0.18rem;
+}
+.mask .masking .choose .left ul li{
+	padding-left: 0.3rem;
+	padding-right: 0.72rem;
+	line-height: 0.58rem;
+	font-size: 0.24rem;
+	text-align:left;
+	margin-top: -0.01rem;
+	background-color: #ebebeb;
+}
+.mask .masking .choose .left ul li a{
+	color: #333;
+}
+.mask .masking .choose .left ul li:first-child a{
+	color:  #50bbdb;
+}
+.mask .masking .choose .left ul li:first-child{
+	background-color: #fff;
+	color:  #50bbdb;	
+	margin-top: 0;
+}
+/* .mask .masking .choose .left ul li:last-child{
+	padding-bottom: 0.64rem;
+} */
+.mask .masking .choose .right ul li{
+	width: 4.12rem;
+	font-size: 0.24rem;
+	background-color: #fff;
+	text-align:left;
+	line-height: 0.58rem;
+	border-bottom: 1px solid #ccc;
+}
+.mask .masking .choose .right ul li:first-child a{
+	color:  #50bbdb;
+}
+.mask .masking .choose .right ul li:last-child{
+	border: 0;
+}
+.mask .masking .choose .right ul li a{
+	float: left;
+	margin-left: 0.62rem;
+	color: #333;
+}
+.mask .masking .choose .right ul li img{
+	display: block;
+	float: right;
+	margin-top: 0.11rem;
+	margin-right: 0.05rem;
+}

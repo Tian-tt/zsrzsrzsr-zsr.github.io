@@ -1,0 +1,168 @@
+
+
+	.header{
+		width: 6.21rem;
+		text-align: center;
+		font-size: 0.28rem;
+		color: #fff;
+		line-height: 0.88rem;		
+		padding-left: 0.19rem;			
+		background-color: #50bbdb;	
+		margin-bottom: 0;		
+	}
+
+	.header>a{
+		display: block;
+		float: left;	
+		position: absolute;
+    	top: 0.23rem;
+    	width: 0.43rem;
+	}
+
+	.header>a>img{
+		display: block;
+	}
+
+	.top{
+		background-color: #fff;
+		padding-left: 0.53rem;
+		color: #f29846;
+		font-size: 0.28rem;
+		line-height: 0.98rem;
+		margin-bottom: 0.26rem;
+	}
+
+	.main{
+		background-color: #fff;
+	}
+
+	.main>div{
+		border-bottom: 1px solid #ccc;
+		margin-left: 0.52rem;
+		position: relative;
+	}
+
+	.main>div:first-child{
+		position: relative;
+	}
+
+	.main>div:first-child img:nth-child(2){
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.main>div:last-child{
+		border-bottom: none;
+	}
+
+	.main>div img:first-child{
+		margin-top: 0.02rem;
+	}
+
+	.main>div:nth-child(3) img{
+		margin-top: 0.12rem;
+	}
+
+	.content{
+		padding: 0.11rem 0.22rem 0.11rem 0;
+	}
+
+	.content img,p,input{
+		float: left;
+	}
+
+	.content img{
+		width: 0.46rem;
+	}
+
+	.content p{
+		font-size: 0.24rem;
+		line-height: 0.52rem;
+		margin-left: 0.2rem;
+	}
+
+	.content input{
+		float: right;
+		margin-top: 0.2rem;
+	}
+
+	.footer{
+		background-color: #fff;
+		padding: 0.17rem 0.2rem;
+		border-top: 1px solid #ccc;
+		bottom: 0;
+		position: fixed;
+    	width: 6rem;
+	}
+
+	.footer>div>p{
+		color: #f0851a;
+		font-size: 0.24rem;
+		float: left;
+		font-weight: bolder;
+		margin-bottom: 0.1rem;
+	}
+
+	.footer>a{
+		display: block;
+		float: right;
+		color: #fff;
+		background-color: #50bbdb;	
+		border-radius: 10px;
+		font-size: 0.24rem;
+		width: 1.87rem;
+		line-height: 0.66rem;
+		text-align: center;
+	}
+
+	input[type="radio"]{
+		display: none;
+		position: relative;
+	}
+
+	span{
+		background-image: url('../images/input_08.png');
+		background-repeat: no-repeat;
+		position: fixed;
+	    top: 2.3rem;
+	    right: 0.3rem;
+	    width: 0.41rem;
+	    height: 0.41rem;
+	    display: block;
+	}
+
+	.lb2{
+		top: 3.05rem;
+	}
+
+	.lb3{
+		top: 3.8rem;
+	}
+
+	.Selected{
+		width: 0.24rem;
+		height: 0.24rem;
+		background-color: #50bbdb;
+		position: absolute;
+		border-radius: 100%;
+	    right: 0.39rem;
+	    top: 0.26rem;
+	    display: none;
+	}
+
+	.tm{
+		float: left;
+		margin: 0 0.1rem;
+	}
+
+	.tm>img{
+		float: left;
+		margin-top: 0.04rem;
+	}
+
+	.left{
+		float: left;
+	}
+
+

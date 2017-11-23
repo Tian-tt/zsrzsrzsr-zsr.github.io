@@ -37,7 +37,7 @@ body,html{
     font-size: 18px;
 }
 .nav{
-    width: 6.4rem;
+    width: 6.09rem;
     padding: 0.17rem 0.15rem 0.14rem 0.16rem;
     background-color: #50bbdb;
 } 
@@ -112,7 +112,6 @@ body,html{
 }
 .nav .camera{
     float:right;
-    margin-right: 0.32rem;
 }
 .nav .camera img{
     width: 0.56rem;

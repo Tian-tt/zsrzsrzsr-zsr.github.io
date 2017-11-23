@@ -10,20 +10,37 @@
     display: block;
     float: left;
 } 
-.footer a img{
+.footer a i{
     display: block;
-    width: 0.45rem;
+    text-align: center;
+    font-size: 0.45rem;
+    color: #7f7f7f;
+}
+.footer .map i{
+    font-size: 0.4rem;
+}
+.footer .go i{
+    font-size: 0.5rem;
 }
 .footer a span{
+    display: block;
     font-size: 0.2rem;
     color:#4e4e4e;
-    margin-top: 0.12rem;
     text-align: center;
+}
+.footer .go span{
+  margin-top: -0.05rem;  
+}
+.footer .map span{
+  margin-top: 0.05rem; 
 }
 .footer .home{
     margin-left: 0.42rem;
     margin-right: 1.2rem;
 } 
+.footer .home i{
+  color:#5cc0dd;  
+}
 .footer .home span{
     color:#5cc0dd;
 }

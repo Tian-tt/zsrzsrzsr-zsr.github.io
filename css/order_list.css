@@ -1,0 +1,150 @@
+
+		body>div{
+			margin-bottom: 0.14rem;
+		}
+
+		.header{
+			width: 6.4rem;
+			text-align: center;
+			font-size: 0.28rem;
+			color: #fff;
+			line-height: 0.88rem;		
+			padding-left: 0.19rem;			
+			background-color: #50bbdb;	
+			margin-bottom: 0;		
+		}
+
+		.header>a{
+			display: block;
+			float: left;	
+		}
+
+		.header>a>img{
+			width: 0.28rem;
+			position: absolute;
+    		top: 0.19rem;
+		}
+
+		.nav>div{
+			font-size: 0.24rem;
+			color: #333;
+			background-color: #fff;
+			float: left;	
+			width: 3.19rem;
+			text-align: center;
+			line-height: 0.74rem;
+			position: relative;
+		}
+
+		.nav>.classification{		
+			border-right: 1px solid #d2d2d2;
+		}
+
+		.order{
+			width: 6.4rem;
+			background-color: #fff;
+		}
+
+		.order>.top{
+			width: 6rem;
+			line-height: 0.36rem;
+			color: #999;
+			margin: 0 0.2rem;
+			font-size: 0.18rem;
+			border-bottom: 1px dashed #b6b6b6;
+		}
+
+		.order>.top>span:first-child{
+			width: 1.6rem;
+			border-right: 1px solid #999;
+			padding-right: 0.22rem;
+			margin-right: 0.16rem;
+		}
+
+		.order>.top>span:last-child{
+			float: right;
+			width: 2.6736rem;
+		}
+
+		.order>.main{
+			width: 6rem;
+			padding: 0.16rem 0.2rem;
+			border-bottom: 1px solid #b5b5b5;
+		}
+
+		.order>.main>p{
+			color: #333;
+    		font-size: 0.24rem;
+    		margin-bottom: 0.22rem;
+		}
+
+		.order>.main>span{
+			color: #666;
+			font-size: 0.18rem;
+		}
+
+		.order>.main>span:nth-child(3){
+			margin: 0 0.86rem 0 0.27rem;
+		}
+
+		.order>.main>span:last-child{
+			color: #ea561d;
+			font-size: 0.2rem;
+		}
+
+		.order>.footer{
+			width: 6rem;
+			padding: 0.16rem 0.2rem;
+			color: #ea561d;
+			font-size: 0.24rem;
+		}
+
+		.footer>select{
+			width: 0.88rem;
+			color: #333;	
+			font-size: 0.24rem;		
+			float: right;
+			text-align: center;		
+			border:1px solid #bebebe;
+		}
+
+		.timeslide{		
+		    text-align: left;		
+			background: #fff;
+			width: 6.4rem;
+		}
+
+		.timeslide p{
+			border-top: 1px solid #dadada;
+			font-size: 0.2rem;
+			line-height: 0.6rem;
+			padding-left: 0.2rem;
+		}
+
+		.allfication{
+			text-align: left;		
+			background: #fff;
+			width: 6.4rem;
+		}
+
+		.allfication p{
+			border-top: 1px solid #dadada;
+			font-size: 0.2rem;
+			line-height: 0.6rem;
+			padding-left: 0.2rem;
+		}
+
+		.allfication p:first-child{
+			border-top: 1px solid #aaa;
+		}
+
+		.mask{
+			background: rgba(0,0,0,0.4);
+			width: 100%;
+		    height: 100%;
+		    position: fixed;
+		    top: 162px;
+		    bottom: 0;
+			left: 0;
+		    display: none;
+		}

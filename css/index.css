@@ -1,19 +1,23 @@
 .banner{
     width: 6.4rem;
     position: relative;
-    padding-top: 0.12rem;
-    padding-bottom: 0.13rem;
-    background-image: url('../images/banner_01.png');
-    background-repeat: no-repeat;
-     background-size: cover; 
+}
+.banner>img{
+    display: block;
+    height: 2.25rem;
+    width: 6.4rem;
 }
 .banner input{
-    width:3.8rem;
+    width:3.7rem;
     margin-left:20%;
     border: 1px solid #50bbdb;
     border-radius: 4px;
-    line-height:0.24rem;
-    padding: 0.09rem 0.18rem 0.09rem 0;
+    padding: 0.09rem 0.18rem 0.09rem 0.1rem;
+    position: absolute;
+    left: 0;
+    font-size:20px;
+    top: 0.12rem;
+    outline: none;
 }
 .banner>a{
     display: block;
@@ -27,8 +31,10 @@
 }
 .banner .point{
     width: 1.28rem;
-    margin: 0 auto;
     margin-top: 1.27rem;
+    position: absolute;
+    left:2.5rem;
+    bottom: 0.13rem;
 }
 .banner .point a{
     width: 0.28rem;

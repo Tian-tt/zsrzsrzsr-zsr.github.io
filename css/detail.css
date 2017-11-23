@@ -291,9 +291,12 @@
 	color: #333;
 	font-size: 0.2rem;
 }
-.akela .text-content .link a img{
+.akela .text-content .link a{
 	display: block;
 	float: right;
+}
+.akela .text-content .link a img{
+	display: block;
 	width: 0.15rem;
 }
 .akela .text-content .cont{

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/tourists.css">
+	<link rel="stylesheet" href="css/public.css">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+	</script>
+</head>
+<body>
+	<div class="header clearfix">添加常用游客
+		<a href="#">
+			<img src="images/fanye.png" alt="">
+		</a>
+		<a href="#" class="save">保存</a>
+	</div>
+	<div>
+		<div class="content">
+			<span class="prompt"></span>
+			<span>姓名</span>
+			<input type="text" placeholder="必填" onfocus="this.placeholder = ''" onblur="this.placeholder = '必填'" class="inp1">
+		</div>
+		<div class="content clearfix">
+			<span>证件类型</span>
+			<select name="" id="">
+				<option value="1">暂无证件</option>
+				<option value="1">身份证</option>
+			</select>
+		</div>
+		<div class="content">
+			<span class="prompt"></span>
+			<span>手机</span>
+			<input type="text" placeholder="选填" onfocus="this.placeholder = ''" onblur="this.placeholder = '选填'" class="inp2">
+		</div>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/touch.js"></script>	
+	<script src="js/fx_methods.js"></script>
+	<script src="js/tourists.js"></script>
+</body>
+</html>
