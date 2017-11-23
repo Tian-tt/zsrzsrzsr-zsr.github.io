@@ -139,6 +139,7 @@ $(".pic img").tap(function(){
 	}
 })
 
-$('.linkLink h3 a').tap(function(){
-	window.location.href="selectTourists.html"
+$('.links').tap(function(){
+	console.log(1)
+	window.location.href = "selectTourists.html"
 })
