@@ -161,3 +161,6 @@
     width: 0.26rem; 
     margin-top: 0.23rem;     
 }
+.moreDown{
+    display: none;
+}
