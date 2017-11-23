@@ -121,7 +121,9 @@
 		display: none;
 		position: relative;
 	}
-
+.time p{
+	font-size: 0.18rem;
+}
 	span{
 		background-image: url('../images/input_08.png');
 		background-repeat: no-repeat;
