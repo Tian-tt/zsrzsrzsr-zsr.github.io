@@ -1,0 +1,485 @@
+.yunnan{
+	width: 6.4rem;
+	padding-top:3.04rem;
+	background-image: url('../images/detail-云南_03.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.yunnan .time{
+	width: 6.12rem;
+	padding-left:0.28rem;
+	font-weight: 300;
+	line-height: 0.52rem;
+	color: #fff;
+	font-size: 0.3rem;
+	background-color:rgba(0,0,0,0.4);
+}
+.contaner{
+	width: 6.4rem;
+	padding-bottom:0.36rem;
+	background-color: #e5e5e5;
+}
+.path{
+	width: 6.12rem;
+	padding: 0.17rem 0 0.29rem 0.28rem;
+	background-image: url('../images/path_03.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.path .left{
+	text-align: left;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.path .left .way{
+	width: 5.13rem;
+	font-size: 0.28rem;
+	color: #333;
+}
+.path .left>span{
+	display: block;
+	color: #ccc;
+	font-weight: 300;
+	margin-top: 0.08rem;
+	font-size: 0.16rem;
+}
+.path .left>span i{
+	font-style: normal;
+}
+.path .left>span>span{
+	color: #f0851a;
+}
+.path .left>span>span b{
+	font-size: 0.3rem;
+	font-weight: 400;
+}
+.path .right{
+	float: right;
+}
+.path .right img{
+	width: 0.28rem;
+	display: block;
+	margin-right: 0.3rem;
+	margin-top: 0.17rem;
+}
+.date{
+	width: 6.0rem;
+	padding: 0.23rem 0 0.23rem 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.33rem;
+	border-radius: 10px;
+	background-color: #fff;
+	text-align: left;
+}
+.date span{
+	display: block;
+	font-size: 0.28rem;
+	color:#333;
+}
+.date .a{
+	display: block;
+	margin-top: 0.15rem;
+	line-height: 0.3rem;
+	padding: 0 0.1rem;
+	border: 1px solid #ccc;
+	font-size: 0.2rem;
+	text-align: center;
+	color: #333;
+	float: left;
+	margin-right: 0.16rem;
+}
+.date .link{
+	float: right;
+	margin-right: 0.22rem;
+}
+.date img{
+	display: block;
+	width: 0.13rem;
+}
+.feature{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.list{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.list ul{
+	width: 6.4rem;
+	border-bottom: 1px solid #ccc;
+}
+.list ul li{
+	width: 1.7rem;
+	text-align: center;
+	padding-bottom:0.15rem;
+	margin-right:0.62rem;
+	float: left;
+	line-height: 0.3rem;
+}
+.list ul li a{
+	font-size: 0.25rem;
+	color: #000;
+	font-weight: 500;
+}
+.list ul li:nth-child(1){
+	border-bottom: 3px solid #50bbdb;
+}
+.list ul li:nth-child(1) a{
+	color: #50bbdb;
+}
+.list ul li:nth-child(3){
+	margin-right: 0.06rem;
+}
+.title{
+	width: 6.4rem;
+	margin-top: 0.32rem;
+	text-align: center;
+	background-color: #f0f0f0;
+}
+.title .line-left{
+	width: 2.6rem;
+	height: 0.01rem;
+	margin-top: 0.22rem;
+	background-color: #ccc;
+	float: left;
+}
+.title span{
+	font-size: 0.24rem;
+	color: #333;
+	margin-left: 0.12rem;
+	line-height: 0.46rem;
+	float: left;
+}
+.title .line-right{
+	width: 2.6rem;
+	height: 0.01rem;
+	margin-top: 0.22rem;
+	background-color: #ccc;
+	float: right;
+}
+.featureDetail{
+	width: 5.8rem;
+	background-color: #fff;
+	padding:0.25rem 0.3rem;
+}
+.featureDetail>p{
+	width: 5.8rem;
+	margin: 0 auto;
+	line-height: 0.36rem;
+}
+.featureDetail>p>span:nth-child(1){
+	font-size: 0.2rem;
+	font-weight:600;
+	float: left;
+}
+.featureDetail>p>span:nth-child(2){
+	font-size: 0.2rem;
+	font-weight:400;
+	float: left;
+}
+.featureDetail img{
+	display: block;
+	width: 5.8rem;
+	margin: 0 auto;
+	margin-top: 0.17rem;
+}
+.intro{
+	width: 6.4rem;
+	background-color: #fff;
+	margin-top: 0.20rem;
+}
+.content{
+	width: 6.1rem;
+	background-color: #fff;
+	background-image: url('../images/time-shafe_03.png');
+	background-position: 0.3rem 0.3rem;
+	background-size:0.24rem;
+	background-repeat: no-repeat;
+}
+.content .journey{
+	width: 5.48rem;
+	padding: 0.21rem 0.28rem 0.31rem 0.64rem;
+}
+.content .journey>.day{
+	margin-top: 0.4rem;
+}
+.content .journey>.day:nth-child(1){
+	margin-top:0;
+} 
+.content .journey .day .title-min{
+	width: 4.68rem;
+	background-color: #fff;
+	border-bottom: 1px solid #50bbdb;
+}
+.content .journey .day .title-min h1{
+	color:#50bbdb;
+	text-align: left;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 0.48rem;
+	font-size: 0.28rem;
+}
+.content .journey .day .eat-stay{
+	width: 4.68rem;
+	border-bottom: 1px dashed #ccc;
+}
+.content .journey .day .eat-stay>span{
+	line-height: 0.67rem;
+	color: #333;
+	font-size: 0.26rem;
+	font-weight: 500;
+	display: block;
+	float: left;
+}
+.content .journey .day .eat-stay>span:nth-child(2){
+	margin-left: 0.9rem;
+}
+.content .journey .day .text{
+	width: 5.1rem;
+	font-size: 0.2rem;
+	margin-top: 0.19rem;
+	line-height: 0.37rem;
+	color: #666;
+	word-spacing: 2px;
+}
+.content .journey .day img{
+	width: 5.45rem;
+	display: block;
+	margin-top: 0.14rem;
+}
+.notice{
+	width: 6.4rem;
+	margin-top: 0.22rem;
+	background-color: #fff;
+}
+.matter{
+	width: 5.9rem;
+	padding: 0.3rem 0.3rem 0.5rem 0.2rem;
+}
+.matter h2{
+	color: #333;
+	font-weight: 500;
+	font-size: 0.24rem;
+}
+.matter h3{
+	color: #333;
+	font-weight: 500;
+	font-size: 0.24rem;
+	margin-top: 0.3rem;
+}
+.matter p{
+	color: #666;
+	line-height: 0.28rem;
+	font-size: 0.2rem;
+}
+.akela .title,.discuss .title{
+	margin-top: 0;
+}
+.akela .text-content{
+	background-color: #fff;
+	width: 6.4rem;
+	padding-top: 0.07rem;
+}
+.akela .text-content .link{
+	width: 5.8rem;
+	margin: 0 auto;
+	line-height: 0.42rem;
+	border-bottom: 1px dashed #ccc;
+}
+.akela .text-content .link span{
+	float: left;
+	color: #333;
+	font-size: 0.2rem;
+}
+.akela .text-content .link a{
+	display: block;
+	float: right;
+}
+.akela .text-content .link a img{
+	display: block;
+	width: 0.15rem;
+}
+.akela .text-content .cont{
+	width: 5.8rem;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+	padding-bottom: 0.35rem;
+}
+.akela .text-content .cont img{
+	display: block;
+	width: 1rem;
+	float: left;
+}  
+.akela .text-content .cont p{
+	color: #666;
+	margin-top: 0.23rem;
+	line-height: 0.28rem;
+	width: 4.68rem;
+	font-size: 0.2rem;
+	float:right;
+}
+.discuss .top{
+	width: 6.4rem;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.discuss .top ul{
+	padding: 0.24rem 0 0.13rem 0;
+}
+.discuss .top ul li{
+	float: left;
+	text-align: center;
+	width: 1.77rem;
+	line-height: 0.24rem;
+	border-left: 1px solid #ccc;
+	font-size: 0.2rem;
+	font-weight: 500;
+	color: #333;
+}
+.discuss .top ul .synthesize{
+	width: 2.84rem;
+	border-left: 0;
+}
+.discuss .top ul .synthesize img{
+	display: block;
+	width: 0.2rem;
+	margin-top: 0.02rem;
+	margin-left: 0.03rem;
+	float:right;
+}
+.discuss .top ul .synthesize>img:nth-child(1){
+	margin-right: 0.28rem;
+}
+.discuss .discuss-cus{
+	width: 6.4rem;
+	background-color: #fff;
+	padding-bottom: 0.14rem;
+	margin-bottom: 0.14rem;
+}
+.discuss .discuss-cus .client{
+	width: 5.85em;
+	padding: 0 0.25rem 0rem 0.3rem;
+}
+.discuss .discuss-cus .client .roof{
+	line-height: 0.56rem;
+	padding-bottom: 0.08rem;
+	border-bottom: 1px dashed #ccc;
+}
+.discuss .discuss-cus .client .roof img{
+	display: block;
+	width: 0.55rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.discuss .discuss-cus .client .roof span{
+	float: left;
+	color: #666;
+	margin-top: 0.25rem;
+	font-size: 0.2rem;
+}
+.discuss .discuss-cus .client .roof>.eva{
+	font-weight: 500;
+	margin-left: 0.32rem;
+}
+.discuss .discuss-cus .client .roof>.time{
+	margin-left: 0.22rem;
+}
+.discuss .discuss-cus .client .roof .star{
+	float: left;
+	width: 0.17rem;
+	margin: 0.45rem 0 0 0.03rem;
+}
+.discuss .discuss-cus .client>span{
+	display: block;
+	line-height: 0.36rem;
+	font-size: 0.2rem;
+	color: #666;
+}
+.discuss .discuss-cus .client img{
+	display: block;
+	width: 1.05rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-right: 0.06rem;
+}
+.discuss .discuss-cus .client .pic{
+	margin-left: 1.2rem;
+}
+.discuss .dis{
+	margin-bottom: 0;
+}
+.reply{
+	width: 6.4rem;
+	padding: 0.28rem 0 0.32rem 0;
+	background-color: #fff;
+	margin-bottom: 1.02rem;
+}
+.reply>div{
+	width: 6.4rem;
+	padding: 0.16rem 0 0.25rem 0;
+	background-color: #f4f4f4;
+}
+.reply>div span{
+	width: 1.28rem;
+	display: block;
+	font-size: 0.16rem;
+	font-weight: 500;
+	color:#EA581B;
+	float: left;
+	margin-left: 0.36rem;
+}
+.reply>div p{
+	font-size: 0.18rem;
+	font-weight: 400;
+	width: 4.48rem;
+	float:left;
+	color: #333;
+	margin-top: 0.31rem;
+}
+.footer{
+	width: 6.4rem;
+	margin-top: 0.14rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.footer ul li{
+	float: left;
+}
+.footer ul li a{
+	display: block;
+}
+ .footer .heart,.footer .phone{
+	width: 1.58rem;
+	text-align: center;
+	border-right: 1px solid #ccc;
+}
+.footer .phone{
+	border-right:0;
+}
+.footer .heart img,.footer .phone img{
+	display: block;
+	margin: 0.17rem 0 0.05rem 0.63rem;
+	width: 0.32rem;
+}
+.footer .phone img{
+	margin-top: 0.09rem;
+	width: 0.34rem;
+}
+.footer .heart span,.footer .phone span{
+	color: #666;
+	display: block;
+	font-size: 0.2rem;
+}
+.footer .join{
+	width: 3.22rem;
+	text-align: center;
+	line-height:0.84rem;
+	background-color: #50bbdb;
+}
+.footer .join span{
+	color: #fff;
+	display: block;
+	font-size: 0.28rem;
+	font-weight: 300;
+}
