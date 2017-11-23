@@ -25,11 +25,9 @@ $('.footer ul .join').tap(function(){
 var top1 = document.querySelector('.intro').offsetTop 
 var top2 = document.querySelector('.notice').offsetTop 
 console.log(top1)
-$('.feature .list ul li').eq(1).tap(function(){
-  console.log(1)
+$('.feature .list ul li a').eq(1).tap(function(){
   $('body,html').scrollTop(top1)
 })
-$('.feature .list ul li').eq(2).tap(function(){
-  console.log(1)
+$('.feature .list ul li a').eq(2).tap(function(){
   $('body,html').scrollTop(top2)
 })
