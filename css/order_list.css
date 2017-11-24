@@ -141,9 +141,9 @@ input,button,select{
 			padding-left: 0.2rem;
 		}
 
-		.allfication p:first-child{
+		/*.allfication p:first-child{
 			border-top: 1px solid #aaa;
-		}
+		}*/
 
 		.mask{
 				background: rgba(0,0,0,0.4);

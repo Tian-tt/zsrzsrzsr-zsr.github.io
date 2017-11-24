@@ -143,3 +143,8 @@ $('.links').tap(function(){
 	console.log(1)
 	window.location.href = "selectTourists.html"
 })
+
+$(".header a").click(function(event){
+	event.preventDefault()
+	history.back(1)
+})

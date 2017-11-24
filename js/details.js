@@ -31,3 +31,8 @@ $('.feature .list ul li a').eq(1).tap(function(){
 $('.feature .list ul li a').eq(2).tap(function(){
   $('body,html').scrollTop(top2)
 })
+
+$(".back").click(function(event){
+	event.preventDefault()
+	history.back(1)
+})

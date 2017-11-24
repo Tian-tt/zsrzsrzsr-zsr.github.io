@@ -1,4 +1,4 @@
-	// var mon = $(this).parent().parent().children('.price').text()
+
 	var num
 $('.kind .order .less').tap(function(){
 	 num = $(this).siblings('input').val()
@@ -18,4 +18,9 @@ $('.kind .order .more').tap(function(){
 })
 $('.time-join .right').tap(function(){
 	 window.location.href="fillinOrder.html"
+})
+
+$(".header a").click(function(event){
+	event.preventDefault()
+	history.back(1)
 })

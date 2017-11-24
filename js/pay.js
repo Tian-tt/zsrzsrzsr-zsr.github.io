@@ -51,3 +51,8 @@ setInterval(time,200)
 $('.footer a').tap(function(){
 	window.location.href="payment.html"
 })
+
+$(".header a").click(function(event){
+	event.preventDefault()
+	history.back(1)
+})

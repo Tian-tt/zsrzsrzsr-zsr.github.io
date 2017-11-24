@@ -19,4 +19,9 @@
 			window.location.href = "orderDetails.html"
 		})
 
+		$(".header a").click(function(event){
+			event.preventDefault()
+			history.back(1)
+		})
+
 	

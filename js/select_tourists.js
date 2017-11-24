@@ -23,3 +23,8 @@ $().ready(function(){
 			$(".content:eq(0) span").text(arr.length)			
 		})
 	})
+
+$(".header a:first-child").click(function(event){
+	event.preventDefault()
+	history.back(1)
+})

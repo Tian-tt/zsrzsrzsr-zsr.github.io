@@ -121,27 +121,18 @@
 		display: none;
 		position: relative;
 	}
-.time p{
-	font-size: 0.18rem;
-}
+	.time p{
+		font-size: 0.18rem;
+	}
 	span{
 		background-image: url('../images/input_08.png');
 		background-repeat: no-repeat;
-		position: fixed;
-	    top: 2.3rem;
-	    right: 0.3rem;
+		float: right;
 	    width: 0.41rem;
 	    height: 0.41rem;
 	    display: block;
 	    background-size:cover;
-	}
-
-	.lb2{
-		top: 3.05rem;
-	}
-
-	.lb3{
-		top: 3.8rem;
+	   
 	}
 
 	.Selected{
@@ -150,8 +141,8 @@
 		background-color: #50bbdb;
 		position: absolute;
 		border-radius: 100%;
-	    right: 0.39rem;
-	    top: 0.26rem;
+	    right: 0.3rem;
+	    top: 0.2rem;
 	    display: none;
 	}
 
