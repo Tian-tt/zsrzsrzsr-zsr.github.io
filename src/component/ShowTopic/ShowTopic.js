@@ -43,9 +43,6 @@ class ShowTopic extends React.Component {
       alert (err)
     })
   }
-  handleUpdate=()=>{
-    console.log(this.props.title)
-  }
   render () {
     const { data } = this.state
     const article = data ? (
@@ -56,7 +53,7 @@ class ShowTopic extends React.Component {
           <span> 浏览量:{data.visit_count} </span>
           <span> 发布于{data.create_at} </span>
         </p>
-        <Link to='/topic/create'><button className='update' onClick={this.handleUpdate}>编辑</button></Link>
+        <Link to='/topic/create'><button className='update' >编辑</button></Link>
         <button className='delete' >删除</button>
         <div className="topic-content">
           <div dangerouslySetInnerHTML={ {__html: data.content} } />
