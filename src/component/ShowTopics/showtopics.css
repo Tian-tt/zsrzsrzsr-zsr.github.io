@@ -1,0 +1,59 @@
+
+.showtopic{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.showtopic>a>img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+.showtopic>.topic-info{
+  width: 70px;
+  color:#333;
+  text-align: center;
+  margin-right: 5px;
+  flex-shrink:  0;
+}
+.showtopic>.topic-info>.topic-info1{
+  color:#9e78c0;
+  font-size:14px;
+}
+.showtopic>.topic-info>.topic-info2{
+  font-size: 10px;
+  color: #b4b4b4;
+}
+.showtopic .topic-tab{
+  padding: 3px;
+  border-radius: 2px;
+  font-size: 12px;
+  background-color: #e5e5e5;
+  color: #999;
+  margin-right: 10px;
+  flex-shrink:  0;
+}
+
+.showtopic .topic-tab.active{
+  background-color: #80bd01;
+  color: white;
+}
+.showtopic .topic-title{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.showtopic .topic-title a{
+  text-decoration: none;
+  color: #333;
+}
+.showtopic .topic-title a:visited{
+  color: #888;
+}
+.showtopic .topic-title a:hover{
+  text-decoration: underline;
+}

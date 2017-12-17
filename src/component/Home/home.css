@@ -1,0 +1,32 @@
+.content{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.main{
+  width: 67%;
+  margin-left:5%;
+  padding:15px 0;
+}
+.tabs{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+.tabs>span{
+  margin-right: 10px;
+  padding: 5px;
+  color: #80bd01;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.tabs>span:hover{
+  color: #08c;
+}
+.tabs>span.active{
+  background-color: #80bd01;
+  color: white;
+}

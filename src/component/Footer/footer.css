@@ -1,0 +1,29 @@
+.footer{
+  width: 100%;
+  padding:20px 0;
+  padding-left:5%;
+  background-color: #fff;
+  color:#ababab;
+  font-size:13px;
+  display: flex;
+}
+.footer .links>a{
+  color:#666;
+  text-decoration:none;
+}
+.col-fade p a:nth-child(1) img{
+  width: 92px;
+  vertical-align: middle;
+}
+.col-fade p a:nth-child(2) img{
+  width: 155px;
+  vertical-align: middle;
+}
+.col-fade p a:nth-child(3) img{
+  width: 166px;
+  vertical-align: middle;
+}
+.col-fade p:nth-child(3) a{
+  color:#08c;
+  text-decoration: none;
+}
